@@ -42,5 +42,6 @@ about:
     produced by the UK Met Office's Unified Model.
 extra:
   recipe-maintainers:
+    - rockdoc-mo
     - ehogan
     - rockdoc
