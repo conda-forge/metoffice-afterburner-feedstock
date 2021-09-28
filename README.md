@@ -160,5 +160,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ehogan](https://github.com/ehogan/)
 * [@rockdoc](https://github.com/rockdoc/)
 
