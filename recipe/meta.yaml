@@ -1,6 +1,6 @@
 {% set name = "metoffice-afterburner" %}
-{% set version = "1.3.2b1.post4" %}
-{% set sha256 = "e5603a67d024b6fc0c1142a868f1ae9018511f34de25f3e8b05aec0941617e52" %}
+{% set version = "1.3.2b2.post1" %}
+{% set sha256 = "28b62c97576c53ba3d2070128eed2d7e8e8a44eac5b2fa8709e604f5bd6a0cec" %}
 
 package:
   name: {{ name|lower }}
@@ -11,9 +11,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
-  skip: True  # [win or osx]
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
+  skip: true  # [win or osx]
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.TXT
-  summary: 'Tools and apps for processing numerical climate model data'
+  summary: Tools and apps for processing numerical climate model data
   description: |
     Afterburner is a Python package that provides functionality for analysing and
     processing climate model data, in particular, though not exclusively, data
