@@ -162,5 +162,3 @@ Feedstock Maintainers
 =====================
 
 * [@ehogan](https://github.com/ehogan/)
-* [@rockdoc](https://github.com/rockdoc/)
-
