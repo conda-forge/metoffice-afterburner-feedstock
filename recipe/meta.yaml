@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 The one that does work is files.pythonhosted.org/packages/bd/3a/1d3b357bfbcb4f28a9f064e4d94d24526994490a9a2aad54dd796577bbe4/metoffice_afterburner-1.3.4.tar.gz
 source:
-  url: https://pypi.org/packages/project/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/project/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
