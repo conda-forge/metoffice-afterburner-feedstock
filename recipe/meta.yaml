@@ -26,6 +26,7 @@ requirements:
     - iris >=2.4
     - pyparsing >=2
     - windspharm
+    - setuptools
 
 test:
   imports:
