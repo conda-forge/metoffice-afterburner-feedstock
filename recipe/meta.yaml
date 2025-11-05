@@ -31,7 +31,6 @@ requirements:
 test:
   imports:
     - afterburner
-    - setuptools
 
 about:
   home: https://code.metoffice.gov.uk/trac/afterburner
